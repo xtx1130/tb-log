@@ -1,0 +1,27 @@
+{
+  "name": "tb-log",
+  "version": "1.0.0",
+  "description": "tb log ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "lint": "standard . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.baidu.com/tbCli/tb-log"
+  },
+  "keywords": [
+    "tb",
+    "log"
+  ],
+  "author": "xietianxin",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2"
+  }
+}
