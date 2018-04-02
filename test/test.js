@@ -2,8 +2,11 @@
 
 const log = require('../')
 
-log.warn('1111')
-log.info('1111')
+const Log = require('../').Log
+
+let logT = new Log('xtx')
+logT.warn('1111')
+logT.info('1111')
 log.success('1111')
 log.error('1111')
 log.default('1111')
