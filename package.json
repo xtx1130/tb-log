@@ -24,5 +24,23 @@
   "dependencies": {
     "chalk": "^2.3.2",
     "figures": "^2.0.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/*.js"
+    ],
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text"
+    ],
+    "collectCoverageFrom": [
+      "!**/node_modules/**",
+      "!**/test/**",
+      "**/*.js",
+      "!**/coverage/**"
+    ]
   }
 }
