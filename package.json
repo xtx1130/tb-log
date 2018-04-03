@@ -1,7 +1,7 @@
 {
   "name": "tb-log",
-  "version": "1.0.0",
-  "description": "tb log ",
+  "version": "2.0.0",
+  "description": "colorful log for info/success/error/start/warn",
   "main": "index.js",
   "scripts": {
     "test": "jest --forceExit",
