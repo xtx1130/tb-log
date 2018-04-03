@@ -1,5 +1,5 @@
 {
-  "name": "tb-log",
+  "name": "@tbCli/tb-log",
   "version": "2.0.0",
   "description": "colorful log for info/success/error/start/warn",
   "main": "index.js",

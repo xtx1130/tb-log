@@ -7,7 +7,7 @@
 ![pic](https://raw.githubusercontent.com/xtx1130/blog/master/images/expression/tb-log.png)
 ## usage
 ```shell
-$ npm install tb-log
+$ npm install git+http://gitlab.baidu.com/tbCli/tb-log.git#v2.0.0
 ```
 
 ```js
