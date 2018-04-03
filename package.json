@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --forceExit",
-    "lint": "standard . --fix"
+    "lint": "standard . --fix",
+    "benchmark": "cd benchmark && node benchmarkAsync && node benchmarkSync"
   },
   "repository": {
     "type": "git",
