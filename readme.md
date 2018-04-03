@@ -1,6 +1,8 @@
 # tb-log
-> A simple log for node cli
+> A simple log for node cli  
 
+[![Build Status](https://travis-ci.org/xtx1130/tb-log.svg?branch=master)](https://travis-ci.org/xtx1130/tb-log)
+[![Coverage Status](https://coveralls.io/repos/github/xtx1130/tb-log/badge.svg?branch=master)](https://coveralls.io/github/xtx1130/tb-log?branch=master)
 ## usage
 ```shell
 $ npm install tb-log
