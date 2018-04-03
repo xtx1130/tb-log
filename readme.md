@@ -1,4 +1,5 @@
 # tb-log
+> A simple log for node cli
 
 ## usage
 ```shell
