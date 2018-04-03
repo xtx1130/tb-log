@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --forceExit",
     "lint": "standard . --fix",
+    "cov": "npm run test -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "benchmark": "cd benchmark && node benchmarkAsync && node benchmarkSync"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "benchmark": "^2.1.4",
+    "coveralls": "^3.0.0",
     "jest": "^22.4.3",
     "standard": "^11.0.1"
   },
@@ -41,6 +43,7 @@
     "collectCoverageFrom": [
       "!**/node_modules/**",
       "!**/test/**",
+      "!**/benchmark/**",
       "**/*.js",
       "!**/coverage/**"
     ]
