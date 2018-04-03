@@ -5,11 +5,17 @@
 [![Coverage Status](https://coveralls.io/repos/github/xtx1130/tb-log/badge.svg?branch=master)](https://coveralls.io/github/xtx1130/tb-log?branch=master)  
 
 ![pic](https://raw.githubusercontent.com/xtx1130/blog/master/images/expression/tb-log.png)
-## usage
+
+## Install
 ```shell
 $ npm install git+http://gitlab.baidu.com/tbCli/tb-log.git#v2.0.0
 ```
+or
+```shell
+$ npm install git+https://github.com/xtx1130/tb-log.git#v2.0.0
+```
 
+## Usage
 ```js
 const log = require('tb-log') // will use the defalut name: tb
 
