@@ -7,23 +7,20 @@
 ![pic](https://raw.githubusercontent.com/xtx1130/blog/master/images/expression/tb-log.png)
 
 ## Install
+
 ```shell
-$ npm install git+http://gitlab.baidu.com/tbCli/tb-log.git#v2.0.0
-```
-or
-```shell
-$ npm install git+https://github.com/xtx1130/tb-log.git#v2.0.0
+$  npm install @xtx1130/tb-log
 ```
 
 ## Usage
 ```js
-const log = require('tb-log') // will use the defalut name: tb
+const log = require('@xtx1130/tb-log') // will use the defalut name: tb
 
 log.warn('test')
 ```
 or
 ```js
-const Log = require('tb-log').Log
+const Log = require('@xtx1130/tb-log').Log
 const log = new Log('name', true)
 
 log.success('test')
@@ -33,7 +30,7 @@ log.success('test')
 
 ### class Log
 ```js
-const Log = require('tb-log').Log
+const Log = require('@xtx1130/tb-log').Log
 const log = new Log('name', true)
 ```
 args[0] &lt;String&gt; The name will show on the tty  

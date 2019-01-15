@@ -1,6 +1,6 @@
 {
   "name": "@xtx1130/tb-log",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "colorful log for info/success/error/start/warn",
   "main": "index.js",
   "scripts": {
