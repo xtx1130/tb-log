@@ -1,5 +1,5 @@
 {
-  "name": "tb-log",
+  "name": "@xtx1130/tb-log",
   "version": "2.0.0",
   "description": "colorful log for info/success/error/start/warn",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlab.baidu.com/tbCli/tb-log"
+    "url": "https://github.com/xtx1130/tb-log"
   },
   "keywords": [
     "tb",
