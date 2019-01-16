@@ -16,14 +16,14 @@ $  npm install @xtx1130/tb-log
 ```js
 const log = require('@xtx1130/tb-log') // will use the defalut name: tb
 
-log.warn('test')
+log.warn('test') // the base show name will be [tb (info|warn...)]
 ```
 or
 ```js
 const Log = require('@xtx1130/tb-log').Log
 const log = new Log('name', true)
 
-log.success('test')
+log.success('test') // the base show name will be [name (info|warn...)]
 ```
 
 ## API
@@ -34,7 +34,7 @@ const Log = require('@xtx1130/tb-log').Log
 const log = new Log('name', true)
 ```
 args[0] &lt;String&gt; The name will show on the tty  
-args[1] &lt;Boolean&gt; Async console or not(sync console,use fs.writeSync) 
+args[1] &lt;Boolean&gt; Async console or not(sync console use `fs.writeSync`) 
 
 ### log.error(str)/success/info/start/warn/default
 ```js
